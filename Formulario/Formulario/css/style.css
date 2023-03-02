@@ -1,0 +1,112 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    background-color: #ccc;
+}
+
+#container{
+    width: 900px;
+    margin: auto;
+}
+
+.box{
+    margin: 20px;
+    border: 2px solid #333;
+}
+
+.cores, .btnAcao {
+    background-color: #333;
+    height: 40px;
+}
+
+.cores h1{
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 40px;
+    padding-left: 10px;
+    display: inline-block;
+}
+
+.caixas{
+    /* border: 1px solid red; */
+    float: right;
+    width: 150px;
+}
+
+.caixas .caixa{
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000; 
+    margin: 6px;
+    float: left;
+}
+
+.preto{background-color: #000;}
+.vermelho{background-color: tomato;}
+.azul{background-color: blue;}
+.verde{background-color: green;}
+
+
+.formulario{
+    background-color: #666;
+    padding: 30px;
+}
+
+.formulario label{
+    display: block;
+    border-top: 1px double #5e5a5a;
+    border-bottom: 1px double #5e5a5a;
+    height: auto;
+    line-height: 24px;
+}
+
+label span{
+    width: 80px;
+    text-align: right;
+    margin-right: 20px;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: bold;
+    color: #f3f3f3;
+    vertical-align: top;
+}
+
+label input[type=text], label textarea {
+    border: 1px double rgb(67 62 62);
+    background-color: #8a8888;
+    padding: 10px 10px;
+    width: 400px;
+    color: #fcf7f7;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+label textarea {
+    width: 600px;
+}
+
+.btnAcao{
+    text-align: right;
+}
+
+.btnAcao .botao{
+    width: 100px;
+    background-color: #999;
+    height: 30px;
+    color: #fff;
+    margin-top: 5px;
+}
+
+.msgErro{
+    border: 2px dashed tomato;
+    background-color: #f2c6c6;
+    height: 39px;
+    text-align: center;
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 44px;
+    display: none;
+}
